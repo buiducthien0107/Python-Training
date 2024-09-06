@@ -7,4 +7,4 @@ print(s.title())#viết hoa chữ cái đàu tiên trong từ
 
 age = 45 
 print(f"tôi đã {age}")
-print("tôi đã",age)
+print("tôi đã",age) 
