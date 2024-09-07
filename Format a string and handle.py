@@ -16,3 +16,12 @@ print(name.format("Thiện", 22))
 "Hello, World!".upper()       # "HELLO, WORLD!"
 "Hello, World!".capitalize()  # "Hello, world!"
 "hello, world!".title()       # "Hello, World!"
+myName = "Thien dep trai"
+myName = myName.upper() # THIEN DEP TRAI
+myName1 = myName.lower() #thien dep trai
+myName2 = myName.strip() # THIEN DEP TRAI
+myName3 = myName.title() # Thien Dep Trai
+print(myName)
+print(myName1)
+print(myName2)
+print(myName3)
