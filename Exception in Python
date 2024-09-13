@@ -1,0 +1,17 @@
+def sum(a,b):
+    return a/b
+print(sum(6,2))
+# print(sum(6,0))
+#File "c:\Users\DHC\OneDrive\Documents\Tự Học Python\Thực Hành\Python-Training\Exception in Python", line 2, in sum   
+    #return a/b
+            #~^~
+#ZeroDivisionError: division by zero
+#xử dụng ngoại lệ (Exception)
+def sum_b(t,d):
+    return t /d
+try: 
+    print(sum(6/0))
+except ZeroDivisionError:
+    print('co loi xay ra!')
+finally:
+    print('finally duoc goi!')
